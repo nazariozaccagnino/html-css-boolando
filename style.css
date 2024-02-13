@@ -88,9 +88,34 @@ a:hover{
 
 .item{
     width: calc(100% / 3);
-    padding: 20px 3px;
+    padding: 20px 8px 60px;
+    position: relative;
 }
 .product{
     width: 100%;
     height: 100%;    
+}
+.description{
+    display: block;
+}
+.price{
+    display: inline-block;
+}
+.redprice{
+    color: var(--color-discount-red);
+    font-weight: 600;
+}
+.linethrough{
+    text-decoration: line-through;
+}
+.hearth{
+    position: absolute;
+    padding: 5px;
+    top: 50px;
+    right: 8px;
+    font-size: 30px;
+    background-color: white;
+}
+.hearth:hover{
+    color: var(--color-discount-red);
 }
