@@ -3,3 +3,84 @@ body{
     font-weight: 400;
     font-style: normal;
 }
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* utilities */
+:root {
+	--color-discount-red: #ff0000;
+	--color-footer-black: #1a1a1a;
+	--color-header-orange: #ff6900;
+	--color-eco-green: #008000;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+ul{
+    list-style: none;
+}
+
+/* end of utilities */
+
+/* flex utilities */
+.d-flex{
+    display: flex;
+}
+.no-flex{
+    display: block;
+}
+.space-between{
+    justify-content: space-between;
+}
+.align-items-center{
+    align-items: center;
+    align-content: center;
+}
+.column{
+    flex-direction: column;
+}
+.row{
+    flex-direction: row;
+}
+.row-reverse{
+    flex-direction: row-reverse;
+}
+.align-center{
+    align-items: center;
+}
+.justify-start{
+    justify-content: flex-start;
+}
+.justify-center{
+    justify-content: center;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.baseline{
+    align-items: baseline;
+}
+.space-around{
+    justify-content: space-around;
+}
+/* end flex utilities */
+
+header{
+    background-color: var(--color-header-orange);
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+nav img{
+    max-height: 50px;
+}
+a:hover{
+    text-decoration: underline;
+}
