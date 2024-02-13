@@ -69,6 +69,9 @@ ul{
 .space-around{
     justify-content: space-around;
 }
+.align-flex-start{
+    align-items: flex-start;
+}
 /* end flex utilities */
 
 header{
@@ -110,12 +113,43 @@ a:hover{
 }
 .hearth{
     position: absolute;
-    padding: 5px;
+    padding: 8px;
     top: 50px;
     right: 8px;
     font-size: 30px;
     background-color: white;
 }
 .hearth:hover{
-    color: var(--color-discount-red);
+    color: blue
+}
+.badge{
+    position: absolute;
+    bottom: 110px;
+    padding: 5px;
+    
+}
+.greenbadge{
+    background-color: var(--color-eco-green);
+    color: white;
+}
+.redbadge{
+    background-color: var(--color-discount-red);
+    color: white;
+}
+.footer{
+    background-color: var(--color-footer-black);   
+    position: relative;
+    color: white;
+}
+.right {
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    border: 3px solid #73AD21;
+}
+.left{
+    
+    left: 0px;
+    width: 300px;
+    border: 3px solid #73AD21;
 }
