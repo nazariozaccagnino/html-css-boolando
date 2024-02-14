@@ -114,10 +114,10 @@ a:hover{
     height: 100%;
     display: none;
 }
-.item:hover .product-alter{
+.item:hover .product{
     display: none;
 }
-.item:hover .alter{
+.item:hover .product-alter{
     display: block;
 }
 
